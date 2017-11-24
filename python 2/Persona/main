@@ -1,0 +1,15 @@
+import Persona
+
+nombre = (input("Introduce nombre: "))
+sexo = (input("Introduce sexo: "))
+edad = (input("Introduce edad: "))
+altura = (input("Introduce altura: "))
+peso = (input("Introduce peso: "))
+p1= Persona(sexo,nombre,edad,peso,altura)
+p2= Persona(nombre,edad,sexo)
+p3= Persona()
+p3.setSexo("M")
+p3.setNombre("Juan")
+p3.setEdad(23)
+p3.setAltura(170)
+p3.setPeso(53)
